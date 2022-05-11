@@ -1,5 +1,5 @@
 <h1 align="center">
-   ⬡ + 🚀
+  ⬡ + 🚀
   <br>Spaceship Gradle<br>
 </h1>
 
@@ -31,7 +31,7 @@
   </a>
 </p>
 
-Current Tool version, through tool (`😍`).
+Current Gradle version, through `gradle` or `gradlew` (`⬡`).
 
 ## Installing
 
