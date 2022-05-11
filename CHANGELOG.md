@@ -1,3 +1,10 @@
+# 1.0.0 (2022-05-11)
+
+
+### Features
+
+* Migrate gradle section from core ([e37d0bb](https://github.com/spaceship-prompt/spaceship-gradle/commit/e37d0bb2b5c003b14274dc68796e3c834ee6e44d))
+
 # 1.0.0 (2022-05-09)
 
 
