@@ -1,20 +1,20 @@
 <h1 align="center">
-  😍 + 🚀
-  <br>Spaceship Section<br>
+   ⬡ + 🚀
+  <br>Spaceship Gradle<br>
 </h1>
 
 <h4 align="center">
-  A <a href="https://template.com" target="_blank">Tool</a> section for Spaceship prompt
+  <a href="https://gradle.org" target="_blank">Gradle</a> section for Spaceship prompt
 </h4>
 
 <p align="center">
-  <a href="https://github.com/spaceship-prompt/spaceship-section/releases">
-    <img src="https://img.shields.io/github/v/release/spaceship-prompt/spaceship-section.svg?style=flat-square"
+  <a href="https://github.com/spaceship-prompt/spaceship-gradle/releases">
+    <img src="https://img.shields.io/github/v/release/spaceship-prompt/spaceship-gradle.svg?style=flat-square"
       alt="GitHub Release" />
   </a>
 
-  <a href="https://github.com/spaceship-prompt/spaceship-section/actions">
-    <img src="https://img.shields.io/github/workflow/status/spaceship-prompt/spaceship-section/ci?style=flat-square"
+  <a href="https://github.com/spaceship-prompt/spaceship-gradle/actions">
+    <img src="https://img.shields.io/github/workflow/status/spaceship-prompt/spaceship-gradle/ci?style=flat-square"
       alt="GitHub Workflow Status" />
   </a>
 
@@ -42,50 +42,50 @@ You need to source this plugin somewhere in your dotfiles. Here's how to do it w
 Execute this command to clone this repo into Oh-My-Zsh plugin's folder:
 
 ```zsh
-git clone https://github.com/spaceship-prompt/spaceship-section.git $ZSH_CUSTOM/plugins/spaceship-section
+git clone https://github.com/spaceship-prompt/spaceship-gradle.git $ZSH_CUSTOM/plugins/spaceship-gradle
 ```
 
-Include `spaceship-section` in Oh-My-Zsh plugins list:
+Include `spaceship-gradle` in Oh-My-Zsh plugins list:
 
 ```zsh
-plugins=($plugins spaceship-section)
+plugins=($plugins spaceship-gradle)
 ```
 
 ### [zplug]
 
 ```zsh
-zplug "spaceship-prompt/spaceship-section"
+zplug "spaceship-prompt/spaceship-gradle"
 ```
 
 ### [antigen]
 
 ```zsh
-antigen bundle "spaceship-prompt/spaceship-section"
+antigen bundle "spaceship-prompt/spaceship-gradle"
 ```
 
 ### [antibody]
 
 ```zsh
-antibody bundle "spaceship-prompt/spaceship-section"
+antibody bundle "spaceship-prompt/spaceship-gradle"
 ```
 
 ### [zinit]
 
 ```zsh
-zinit light "spaceship-prompt/spaceship-section"
+zinit light "spaceship-prompt/spaceship-gradle"
 ```
 
 ### [zgen]
 
 ```zsh
-zgen load "spaceship-prompt/spaceship-section"
+zgen load "spaceship-prompt/spaceship-gradle"
 ```
 
 ### [sheldon]
 
 ```toml
-[plugins.spaceship-section]
-github = "spaceship-prompt/spaceship-section"
+[plugins.spaceship-gradle]
+github = "spaceship-prompt/spaceship-gradle"
 ```
 
 ## Usage
@@ -93,24 +93,25 @@ github = "spaceship-prompt/spaceship-section"
 After installing, add the following line to your `.zshrc` in order to include Ember section in the prompt:
 
 ```zsh
-spaceship add section
+spaceship add gradle
 ```
 
 ## Options
 
-This section is shown only in directories containing a `file-to-check.ext` file.
+Shows current Gradle version using `gradle` or `gradlew` only within folder containing `settings.gradle` and `settings.gradle.kts` files.
 
-| Variable                   |              Default               | Meaning                              |
-| :------------------------- | :--------------------------------: | ------------------------------------ |
-| `SPACESHIP_SECTION_SHOW`   |               `true`               | Show current section                 |
-| `SPACESHIP_SECTION_PREFIX` | `$SPACESHIP_PROMPT_DEFAULT_PREFIX` | Prefix before section                |
-| `SPACESHIP_SECTION_SUFFIX` | `$SPACESHIP_PROMPT_DEFAULT_SUFFIX` | Suffix after section                 |
-| `SPACESHIP_SECTION_SYMBOL` |               `😍·`                | Character to be shown before version |
-| `SPACESHIP_SECTION_COLOR`  |             `yellow`               | Color of section                     |
+| Variable                               |              Default               | Meaning                                         |
+| :------------------------------------- | :--------------------------------: | ----------------------------------------------- |
+| `SPACESHIP_GRADLE_SHOW`                |               `true`               | Current Gradle section                          |
+| `SPACESHIP_GRADLE_PREFIX`              | `$SPACESHIP_PROMPT_DEFAULT_PREFIX` | Prefix before Gradle section                    |
+| `SPACESHIP_GRADLE_SUFFIX`              | `$SPACESHIP_PROMPT_DEFAULT_SUFFIX` | Suffix after Gradle section                     |
+| `SPACESHIP_GRADLE_SYMBOL`              |                `⬡·`                | Character to be shown before Gradle section     |
+| `SPACESHIP_GRADLE_DEFAULT_VERSION`     |                ` `                 | Gradle version to be treated as default         |
+| `SPACESHIP_GRADLE_COLOR`               |              `green`               | Color of Gradle section                         |
 
 ## License
 
-MIT © [Name Surname](http://yourwebsite.com)
+MIT © [Denys Dovhan](http://yourwebsite.com) and Sergey Shatunov
 
 <!-- References -->
 
