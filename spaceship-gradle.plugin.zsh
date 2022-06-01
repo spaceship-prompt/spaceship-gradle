@@ -68,7 +68,7 @@ spaceship_gradle() {
 
   [[ "$gradle_version" == "$SPACESHIP_GRADLE_DEFAULT_VERSION" ]] && return
 
-  spaceship::section \
+  spaceship::section::v3 \
     "$SPACESHIP_GRADLE_COLOR" \
     "$SPACESHIP_GRADLE_PREFIX" \
     "$SPACESHIP_GRADLE_SYMBOL$gradle_version" \
