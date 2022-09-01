@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/spaceship-prompt/spaceship-gradle/compare/v1.0.0...v1.0.1) (2022-06-01)
+
+
+### Bug Fixes
+
+* specify section version ([bd384b1](https://github.com/spaceship-prompt/spaceship-gradle/commit/bd384b1a47d399024e874933c05e6ed77eb5cb28))
+
 # 1.0.0 (2022-05-11)
 
 
