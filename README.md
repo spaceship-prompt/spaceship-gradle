@@ -129,6 +129,12 @@ Shows current Gradle version using `gradle` or `gradlew` only within folder cont
 | `SPACESHIP_GRADLE_DEFAULT_VERSION`     |                ` `                 | Gradle version to be treated as default         |
 | `SPACESHIP_GRADLE_COLOR`               |              `green`               | Color of Gradle section                         |
 
+## Contributing
+
+First, thanks for your interest in contributing!
+
+Contribute to this repo by submitting a pull request. Please use [conventional commits](https://www.conventionalcommits.org/), since this project adheres to [semver](https://semver.org/) and is automatically released via [semantic-release](https://github.com/semantic-release/semantic-release).
+
 ## License
 
 MIT © [Denys Dovhan](http://yourwebsite.com) and Sergey Shatunov
