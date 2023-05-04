@@ -59,18 +59,19 @@ spaceship_gradle() {
   local gradle_version
 
   if [[ -f "$gradle_root_dir/gradlew" ]]; then
-    gradle_version=$(spaceship::gradle::versions "$gradle_root_dir/gradlew")
+    gradle_version=$(spaceship::gradle::version "$gradle_root_dir/gradlew")
   elif spaceship::exists gradle; then
-    gradle_version=$(spaceship::gradle::versions gradle)
+    gradle_version=$(spaceship::gradle::version gradle)
   else
     return
   fi
 
   [[ "$gradle_version" == "$SPACESHIP_GRADLE_DEFAULT_VERSION" ]] && return
 
-  spaceship::section::v3 \
-    "$SPACESHIP_GRADLE_COLOR" \
-    "$SPACESHIP_GRADLE_PREFIX" \
-    "$SPACESHIP_GRADLE_SYMBOL$gradle_version" \
-    "$SPACESHIP_GRADLE_SUFFIX"
+  spaceship::section \
+    --color "$SPACESHIP_GRADLE_COLOR" \
+    --prefix "$SPACESHIP_GRADLE_PREFIX" \
+    --symbol "$SPACESHIP_GRADLE_SYMBOL" \
+    --suffix "$SPACESHIP_GRADLE_SUFFIX" \
+    "${gradle_version}"
 }
