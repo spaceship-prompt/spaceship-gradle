@@ -110,7 +110,7 @@ source "~/.zsh/spaceship-gradle/spaceship-gradle.plugin.zsh"
 
 ## Usage
 
-After installing, add the following line to your `.zshrc` in order to include Ember section in the prompt:
+After installing, add the following line to your `.zshrc` in order to include Gradle section in the prompt:
 
 ```zsh
 spaceship add gradle
